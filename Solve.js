@@ -12,9 +12,19 @@
 // make a unique array out of the above array (don't be use iterative method like filter , ruduce e.t.c.)
 // eg => arr = [1,2,4,5,6,8,9]
 
-const arr = [1,2,2,1,4,5,6,8,8,4,9]
+var arr = [1,2,2,1,4,5,6,8,8,4,9]
 
 // we using set 
 
-const newarr = [...new Set(arr)]
-console.log(newarr);
+// const newarr = [...new Set(arr)]
+// const newarr = new Set(arr);
+// console.log(newarr);
+
+// guess the output of this question 
+
+var arr = [1,2,3,4,5,6];
+// console.log(arr[arr.length-1]++);
+console.log(arr[arr.length-1]++);
+console.log(arr.length);
+
+
