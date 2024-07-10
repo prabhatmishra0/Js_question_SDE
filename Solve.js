@@ -22,9 +22,24 @@ var arr = [1,2,2,1,4,5,6,8,8,4,9]
 
 // guess the output of this question 
 
-var arr = [1,2,3,4,5,6];
+// var arr = [1,2,3,4,5,6];
+// // console.log(arr[arr.length-1]++);
 // console.log(arr[arr.length-1]++);
-console.log(arr[arr.length-1]++);
-console.log(arr.length);
+// console.log(arr.length);
+
+
+let x = 10;
+
+{
+    let x = 20;
+    {
+        //console.log(x);
+        let x = 30;
+        console.log(x)
+    }
+}
+
+console.log(x)
+
 
 
